@@ -1,0 +1,10 @@
+version: '2'
+services:
+  adage:
+    image: node:8.6-alpine
+    volumes:
+      - "./:/node"
+    ports:
+      - "3000:3000"
+    working_dir: "/node"
+    command: "npm run start"
