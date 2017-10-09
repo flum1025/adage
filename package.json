@@ -1,5 +1,5 @@
 {
-  "name": "sarasty-conversations",
+  "name": "adage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/flum1025/sarasty-conversations.git"
+    "url": "git+ssh://git@github.com/flum1025/adage.git"
   },
   "author": "flum1025",
   "bugs": {
-    "url": "https://github.com/flum1025/sarasty-conversations/issues"
+    "url": "https://github.com/flum1025/adage/issues"
   },
-  "homepage": "https://github.com/flum1025/sarasty-conversatiOns",
+  "homepage": "https://github.com/flum1025/adage",
   "dependencies": {
     "@line/bot-sdk": "^3.1.1",
     "axios": "^0.16.2",
