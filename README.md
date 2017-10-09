@@ -1,6 +1,6 @@
 # Adage
 
-Easy to create responsive SPA(Single Page Application) admin page with Vue.js.
+Easy to create responsive admin page of Single Page Application with Vue.js.
 
 [LIVE DEMO](https://demo.adage.flum.pw)(user: test, password: test)
 
