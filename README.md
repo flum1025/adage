@@ -2,7 +2,7 @@
 
 Easy to create responsive Single Page Application admin page with Vue.js.
 
-[LIVE DEMO](demo.adage.flum.pw)(user: test, password: test)
+[LIVE DEMO](https://demo.adage.flum.pw)(user: test, password: test)
 
 ## Usage
 
