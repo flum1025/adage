@@ -65,7 +65,7 @@ Password is hashed and stored in `config/auth.json`.
 
 ### API
 
-Add files to `apis/` you can create web api for use on the page. Web api in `apis/` folder automatically `/api` namespace. 
+Add files to `apis/` you can create web api for use on the page. Web api in `apis/` folder have a `/api` namespace. 
 You can add authentication by enclosing it with `if (req.requireAuth(res)){}`. Error message is returned automatically
 
 ```js
