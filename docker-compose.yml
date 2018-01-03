@@ -1,10 +1,21 @@
 version: '2'
 services:
   adage:
+    restart: always
     image: node:8.6-alpine
     volumes:
       - "./:/node"
-    ports:
-      - "3000:3000"
+    expose:
+      - 3000
     working_dir: "/node"
     command: "npm run start"
+    environment:
+      VIRTUAL_HOST: demo.adage.flum.pw
+      LETSENCRYPT_HOST: demo.adage.flum.pw
+      LETSENCRYPT_EMAIL: flum.1025@gmail.com
+    networks:
+      - auto-proxy
+
+networks:
+  auto-proxy:
+    external: true
